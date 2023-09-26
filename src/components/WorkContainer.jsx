@@ -1,7 +1,7 @@
 import React from "react";
 
 const WorkContainer = ({ works }) => {
-  const { demo, code, image } = works;
+  const { name, demo, code, image } = works;
   const demoLink = () => {
     window.open(demo, "_blank");
   };
@@ -17,7 +17,7 @@ const WorkContainer = ({ works }) => {
       {/*Hover Effect */}
       <div className="opacity-0 group-hover:opacity-100 duration-500 ease-in-out">
         <span className=" text-2xl font-bold text-white tracking-wider">
-          React JS Application
+          {name}
         </span>
         <div className="pt-8 text-center">
           <a
