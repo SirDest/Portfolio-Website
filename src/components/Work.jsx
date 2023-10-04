@@ -1,7 +1,9 @@
 import React from "react";
-import MovieImg from "../assets/projects/MovieWebsite.png.jpg";
-import GalleryDnD from "../assets/projects/Imagedragndrop.png.jpg";
+import MovieImg from "../assets/projects/MovieWebsite.jpg";
+import GalleryDnD from "../assets/projects/Imagedragndrop.jpg";
 import WorkContainer from "./WorkContainer";
+import TodoListAppImg from "../assets/projects/TodoApp.jpg";
+import CalculatorImg from "../assets/projects/Calculatorjpg";
 
 const Work = () => {
   const work = [
@@ -16,6 +18,18 @@ const Work = () => {
       demo: "https://hng-gallery-web-app.vercel.app/",
       code: "https://github.com/SirDest/HNG-Gallery-Web-App",
       image: GalleryDnD,
+    },
+    {
+      name: "Calculator With React",
+      demo: "https://calculator-with-react-js.vercel.app/",
+      code: "https://github.com/SirDest/Calculator-with-ReactJs",
+      image: CalculatorImg,
+    },
+    {
+      name: "TodoList with React",
+      demo: "https://destined-todolist.netlify.app/",
+      code: "https://github.com/SirDest/TodoList-web-app-with-react-js-and-tailwind-css",
+      image: TodoListAppImg,
     },
   ];
 
