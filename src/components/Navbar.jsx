@@ -14,15 +14,11 @@ const Navbar = () => {
   const handleClick = () => {
     setNav(!nav);
   };
-  const gitHubLink = () => {
-    window.open(github, "_blank");
-  };
+
   const ResumeLink = () => {
     window.open(ResumePDF, "_blank");
   };
-  const linkedInLink = () => {
-    window.open(linkedIn, "_blank");
-  };
+
   const changeColor = () => {
     window.scrollY > 1 ? setColor(true) : setColor(false);
   };
@@ -35,7 +31,7 @@ const Navbar = () => {
   return (
     <div
       style={{ backgroundColor: color ? "black" : "transperent" }}
-      className="fixed w-full h-[80px] flex justify-between items-center px-4 text-gray-300"
+      className="fixed z-10 w-full h-[80px] flex justify-between items-center px-4 text-gray-300"
     >
       <Link to="home" className="cursor-pointer">
         <img src={Logo} alt="LogoImage" style={{ width: "150px" }} />
@@ -126,17 +122,17 @@ const Navbar = () => {
       <div className=" hidden lg:flex flex-col fixed top-[35%] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
-            <Link
+            <a
               className="flex justify-between items-center text-gray-300 w-full"
-              to={linkedInLink}
+              href={linkedIn}
             >
               LinkedIn <FaLinkedin size={30} />
-            </Link>
+            </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <Link
               className="flex justify-between items-center text-gray-300 w-full"
-              to={gitHubLink}
+              to={github}
             >
               GitHub <FaGithub size={30} />
             </Link>

@@ -3,6 +3,7 @@ import MovieImg from "../assets/projects/MovieWebsite.jpg";
 import GalleryDnD from "../assets/projects/Imagedragndrop.jpg";
 import WorkContainer from "./WorkContainer";
 import TodoListAppImg from "../assets/projects/TodoApp.jpg";
+import ContactApp from "../assets/projects/Contact.jpg";
 import CalculatorImg from "../assets/projects/Calculator.jpg";
 
 const Work = () => {
@@ -30,6 +31,12 @@ const Work = () => {
       demo: "https://destined-todolist.netlify.app/",
       code: "https://github.com/SirDest/TodoList-web-app-with-react-js-and-tailwind-css",
       image: TodoListAppImg,
+    },
+    {
+      name: "Contact List App With ReactJs",
+      demo: "https://destined-reactjs-contact-app.netlify.app/",
+      code: "https://github.com/SirDest/Contact-App-with-React",
+      image: ContactApp,
     },
   ];
 
