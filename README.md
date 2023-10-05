@@ -3,5 +3,5 @@
 
 It contains my resume and you can easily access my projects from here.
 
-You can visit it with tis demo link:
+You can visit the site 👇: https://destined-portfolio-website.netlify.app/
 
