@@ -3,7 +3,7 @@ import MovieImg from "../assets/projects/MovieWebsite.jpg";
 import GalleryDnD from "../assets/projects/Imagedragndrop.jpg";
 import WorkContainer from "./WorkContainer";
 import TodoListAppImg from "../assets/projects/TodoApp.jpg";
-import CalculatorImg from "../assets/projects/Calculatorjpg";
+import CalculatorImg from "../assets/projects/Calculator.jpg";
 
 const Work = () => {
   const work = [
