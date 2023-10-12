@@ -12,7 +12,7 @@ const WorkContainer = ({ works }) => {
   return (
     <div
       style={{ backgroundImage: `url(${image})` }}
-      className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div duration-500 ease-in-out hover:scale-125 hover:z-10"
+      className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div duration-500 ease-in-out"
     >
       {/*Hover Effect */}
       <div className="opacity-0 group-hover:opacity-100 duration-500 ease-in-out p-3 text-center">
