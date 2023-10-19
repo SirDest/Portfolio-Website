@@ -14,7 +14,12 @@ const Navbar = () => {
   const handleClick = () => {
     setNav(!nav);
   };
-
+  const LinkedInLink = () => {
+    window.open(linkedIn, "_blank");
+  };
+  const GitHubLink = () => {
+    window.open(github, "_blank");
+  };
   const ResumeLink = () => {
     window.open(ResumePDF, "_blank");
   };
@@ -121,40 +126,34 @@ const Navbar = () => {
       {/* Social Menu */}
       <div className=" hidden lg:flex flex-col fixed top-[35%] left-0">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
-            <a
-              className="flex justify-between items-center text-gray-300 w-full"
-              href={linkedIn}
-            >
+          <li
+            onClick={LinkedInLink}
+            className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600"
+          >
+            <p className="flex justify-between items-center text-gray-300 w-full">
               LinkedIn <FaLinkedin size={30} />
-            </a>
+            </p>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
-            <Link
-              className="flex justify-between items-center text-gray-300 w-full"
-              to={github}
-            >
+          <li
+            onClick={GitHubLink}
+            className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]"
+          >
+            <p className="flex justify-between items-center text-gray-300 w-full">
               GitHub <FaGithub size={30} />
-            </Link>
+            </p>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2e0]">
-            <a
-              className="flex justify-between items-center text-gray-300 w-full"
-              href="/"
-            >
+            <p className="flex justify-between items-center text-gray-300 w-full">
               Email <HiOutlineMail size={30} />
-            </a>
+            </p>
           </li>
           <li
             onClick={ResumeLink}
             className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]"
           >
-            <a
-              className="flex justify-between items-center text-gray-300 w-full"
-              href="/"
-            >
+            <p className="flex justify-between items-center text-gray-300 w-full">
               Resume <BsFillPersonLinesFill size={30} />
-            </a>
+            </p>
           </li>
         </ul>
       </div>
