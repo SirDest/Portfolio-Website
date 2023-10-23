@@ -6,6 +6,7 @@ import ReactImg from "../assets/react.png";
 import Bootstrap from "../assets/bootstrap.png";
 import Github from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
+import Next from "../assets/nextjs.png";
 
 const Skills = () => {
   const webSkills = [
@@ -22,7 +23,7 @@ const Skills = () => {
       image: Javascript,
     },
     {
-      name: "React",
+      name: "React.Js",
       image: ReactImg,
     },
     {
@@ -36,6 +37,10 @@ const Skills = () => {
     {
       name: "Bootstrap",
       image: Bootstrap,
+    },
+    {
+      name: "Next.Js",
+      image: Next,
     },
   ];
   return (

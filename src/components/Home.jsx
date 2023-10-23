@@ -1,8 +1,11 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { Link } from "react-scroll";
+import ResumePDF from "../assets/resume.pdf";
 
 const Home = () => {
+  const ResumeLink = () => {
+    window.open(ResumePDF, "_blank");
+  };
   return (
     <div name="home" className="bg-[#0a192f] w-full h-screen">
       {/* Container */}
@@ -18,15 +21,15 @@ const Home = () => {
           Welcome to my corner of the web! I'm Destined Akinro, a passionate and
           dedicated web developer with a burning desire to create stunning,
           functional, and user-friendly websites.
-          <Link
-            to="contact"
+          <button
+            onClick={ResumeLink}
             className="text-white border-2 group py-3 px-6 my-2 w-fit flex items-center hover:bg-pink-600 hover:border-pink-600"
           >
-            Contact
+            Resume
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3" />
             </span>
-          </Link>
+          </button>
         </p>
       </div>
     </div>
