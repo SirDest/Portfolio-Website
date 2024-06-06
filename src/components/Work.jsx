@@ -7,38 +7,38 @@ import ContactApp from "../assets/projects/Contact.jpg";
 import CalculatorImg from "../assets/projects/Calculator.jpg";
 
 const Work = () => {
-  const work = [
-    {
-      name: "Movie Web App",
-      demo: "https://destinedhngmovietask.netlify.app/",
-      code: "https://github.com/SirDest/hngTASKtWOMOVIE",
-      image: MovieImg,
-    },
-    {
-      name: "Gallery Image drag and drop",
-      demo: "https://hng-gallery-web-app.vercel.app/",
-      code: "https://github.com/SirDest/HNG-Gallery-Web-App",
-      image: GalleryDnD,
-    },
-    {
-      name: "Calculator With React",
-      demo: "https://calculator-with-react-js.vercel.app/",
-      code: "https://github.com/SirDest/Calculator-with-ReactJs",
-      image: CalculatorImg,
-    },
-    {
-      name: "TodoList with React",
-      demo: "https://destined-todolist.netlify.app/",
-      code: "https://github.com/SirDest/TodoList-web-app-with-react-js-and-tailwind-css",
-      image: TodoListAppImg,
-    },
-    {
-      name: "Contact List App With ReactJs",
-      demo: "https://destined-reactjs-contact-app.netlify.app/",
-      code: "https://github.com/SirDest/Contact-App-with-React",
-      image: ContactApp,
-    },
-  ];
+  // const work = [
+  //   {
+  //     name: "Movie Web App",
+  //     demo: "https://destinedhngmovietask.netlify.app/",
+  //     code: "https://github.com/SirDest/hngTASKtWOMOVIE",
+  //     image: MovieImg,
+  //   },
+  //   {
+  //     name: "Gallery Image drag and drop",
+  //     demo: "https://hng-gallery-web-app.vercel.app/",
+  //     code: "https://github.com/SirDest/HNG-Gallery-Web-App",
+  //     image: GalleryDnD,
+  //   },
+  //   {
+  //     name: "Calculator With React",
+  //     demo: "https://calculator-with-react-js.vercel.app/",
+  //     code: "https://github.com/SirDest/Calculator-with-ReactJs",
+  //     image: CalculatorImg,
+  //   },
+  //   {
+  //     name: "TodoList with React",
+  //     demo: "https://destined-todolist.netlify.app/",
+  //     code: "https://github.com/SirDest/TodoList-web-app-with-react-js-and-tailwind-css",
+  //     image: TodoListAppImg,
+  //   },
+  //   {
+  //     name: "Contact List App With ReactJs",
+  //     demo: "https://destined-reactjs-contact-app.netlify.app/",
+  //     code: "https://github.com/SirDest/Contact-App-with-React",
+  //     image: ContactApp,
+  //   },
+  // ];
 
   return (
     <div name="work" className=" bg-[#0a192f] w-full h-fit  text-gray-300">
