@@ -41,8 +41,8 @@ const Work = () => {
   // ];
 
   return (
-    <div name="work" className=" bg-[#0a192f] w-full h-fit  text-gray-300">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+    <div name="work" className=" bg-[#0a192f] w-full h-fit text-gray-300">
+{/*       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-b-pink-600">
             Work
@@ -57,7 +57,10 @@ const Work = () => {
             <WorkContainer works={works} key={works.demo} />
           ))}
         </div>
-      </div>
+      </div> */}
+    <div>
+    <p>Check back later please</p>
+    </div>
     </div>
   );
 };
